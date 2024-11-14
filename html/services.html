@@ -1,0 +1,11 @@
+<div ng-controller="ServicesController">
+    <main class="mt-5">
+        <h2 class="text-center">Szolgáltatásaink</h2>
+        <div class="container d-flex flex-wrap justify-content-center">
+            <div class="card p-5 mx-3" ng-repeat="service in services">
+                <h3>{{service.name}}</h3>
+                <p>{{service.description}}</p>
+            </div>
+        </div>
+    </main>
+</div>
